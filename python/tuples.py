@@ -1,8 +1,0 @@
-myTuple = (1,2,3,3)
-print("Tuple = ", myTuple)
-print("3 appears = ", myTuple.count(3), " times")
-print("Index of 1 = ", myTuple.index(1))
-print("Sum of Tuple = ", sum(myTuple))
-print(min(myTuple))  
-print(max(myTuple))
-print(len(myTuple))
