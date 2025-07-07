@@ -29,4 +29,12 @@ def Student(name,age):
     print(f"{name} is {age} years old")
 
 Student("Sultan",18)
-Student(age=21,name="Khizer")   #here you are calling by explicitly mentioning parameter so order 
+Student(age=21,name="Khizer")   #here you are calling by explicitly mentioning parameter so order dont matter
+
+def myFunc():
+    pass
+
+def myFunc():
+    return "Function Declared later defined before"
+
+print(myFunc())
