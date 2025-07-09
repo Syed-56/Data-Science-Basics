@@ -1,0 +1,4 @@
+Aloo
+Began
+Pyaz
+Biryani = aloo+Biryani
