@@ -1,0 +1,9 @@
+ALTER TABLE toys
+MODIFY VARIETY VARCHAR(30);
+SELECT * FROM toys;
+
+TRUNCATE table toys;
+SELECT * FROM toys;
+
+DROP TABLE toys;
+SELECT * FROM toys;

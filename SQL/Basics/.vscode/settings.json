@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "filmData",
+            "database": "${workspaceFolder:Basics}/film_data.db"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "countryData",
+            "database": "${workspaceFolder:Basics}/countryData.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
