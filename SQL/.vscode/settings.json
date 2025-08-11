@@ -12,6 +12,19 @@
             "name": "HR",
             "database": "HR",
             "username": "root"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "PetRescue",
+            "database": "PETRESCUE",
+            "username": "root"
         }
     ]
 }
